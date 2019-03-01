@@ -1,0 +1,10 @@
+spatie/laravel-activitylog
+https://docs.spatie.be/laravel-activitylog/v2/introduction
+https://github.com/spatie/laravel-activitylog
+composer require spatie/laravel-activitylog
+php artisan vendor:publish --provider="Spatie\Activitylog\ActivitylogServiceProvider" --tag="migrations"
+
+Laravel Authentication Log
+https://github.com/yadahan/laravel-authentication-log
+composer require yadahan/laravel-authentication-log
+php artisan vendor:publish --provider="Yadahan\AuthenticationLog\AuthenticationLogServiceProvider"
